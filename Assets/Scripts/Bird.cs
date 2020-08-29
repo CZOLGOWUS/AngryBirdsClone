@@ -51,7 +51,7 @@ public class Bird : MonoBehaviour
 
         if( transform.position.y > 10   ||
             transform.position.y < -10  ||
-            transform.position.x > 50   ||
+            transform.position.x > 40   ||
             transform.position.x < -30  ||
             _timeSittingStill > timeToRespawn )
         {
